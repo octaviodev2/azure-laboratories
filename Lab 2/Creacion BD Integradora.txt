@@ -1,0 +1,10 @@
+az postgres flexible-server db create \
+  --resource-group rg-utvt-integradora-dev-mxc-001 \
+  --server-name psql-utvt-integradora-dev-mxc-001 \
+  --database-name integradora
+
+
+az postgres flexible-server db create \
+  --resource-group rg-utvt-integradora-dev-mxc-001 \
+  --server-name psql-utvt-integradora-dev-mxc-001 \
+  -n integradora
